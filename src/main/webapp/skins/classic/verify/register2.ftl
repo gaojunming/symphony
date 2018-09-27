@@ -50,12 +50,12 @@
                              <svg><use xlink:href="#locked"></use></svg>
                              <input type="password" id="registerConfirmPassword2" placeholder="${userPasswordLabel2}" />
                         </div>
-                        <div class="fn-clear">
+                        <#--<div class="fn-clear">
                             <label>${roleLabel}</label>
                             <label>&nbsp;&nbsp;&nbsp;&nbsp;<input name="userAppRole" type="radio" value="0" checked="checked" />&nbsp;&nbsp;${programmerLabel}</label>
                             <label style="float:right">&nbsp;&nbsp;<input name="userAppRole" type="radio" value="1" />&nbsp;&nbsp;${designerLabel}</label>
 
-                        </div>
+                        </div>-->
                         <div id="registerTip2" class="tip"></div>
                         <button class="green" onclick="Verify.register2()">${registerLabel}</button>
                         <input id="referral2" type="hidden" value="${referral}">

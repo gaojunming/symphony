@@ -156,7 +156,7 @@
         </ul>
     </div>
 </div>
-<div class="module">
+<#--<div class="module">
     <div class="module-header">
         <h2>开源项目</h2>
     </div>
@@ -180,5 +180,5 @@
             </li>
         </ul>
     </div>
-</div>
+</div>-->
 </#if>

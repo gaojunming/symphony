@@ -329,13 +329,13 @@
                     </#list>
                         </select>
                     </label>
-                    <label class="mid">
+                    <#--<label class="mid">
                         <div>${appRoleLabel}</div>
                         <select id="userAppRole" name="userAppRole">
                             <option value="0"<#if 0 == user.userAppRole> selected</#if>>${hackerLabel}</option>
                             <option value="1"<#if 1 == user.userAppRole> selected</#if>>${painterLabel}</option>
                         </select>
-                    </label>
+                    </label>-->
                     <label>
                         <div>${userStatusLabel}</div>
                         <select id="userStatus" name="userStatus">

@@ -648,23 +648,28 @@ public class InitMgmtService {
             tag.put(Tag.TAG_URI, "announcement");
             tagMgmtService.updateTag(tagId, tag);
 
-            tagTitle = "B3log";
+            tagTitle = "使用指南";
+            tagId = tagMgmtService.addTag(adminId, tagTitle);
+            tag = tagRepository.get(tagId);
+            tag.put(Tag.TAG_URI, "user-guide");
+            tagMgmtService.updateTag(tagId, tag);
+            /*tagTitle = "B3log";
             tagId = tagMgmtService.addTag(adminId, tagTitle);
             tag = tagRepository.get(tagId);
             tag.put(Tag.TAG_URI, "B3log");
             tag.put(Tag.TAG_ICON_PATH, "b3log.png");
             tag.put(Tag.TAG_DESCRIPTION, "[B3log](https://b3log.org) 是一个开源组织，名字来源于“Bulletin Board Blog”缩写，目标是将独立博客与论坛结合，形成一种新的网络社区体验，详细请看 [B3log 构思](https://hacpai.com/b3log)。目前 B3log 已经开源了多款产品： [Solo] 、 [Sym] 、 [Wide] 。");
-            tagMgmtService.updateTag(tagId, tag);
+            tagMgmtService.updateTag(tagId, tag);*/
 
-            tagTitle = "Sym";
+            tagTitle = "京润珍珠";
             tagId = tagMgmtService.addTag(adminId, tagTitle);
             tag = tagRepository.get(tagId);
-            tag.put(Tag.TAG_URI, "Sym");
-            tag.put(Tag.TAG_ICON_PATH, "sym.png");
-            tag.put(Tag.TAG_DESCRIPTION, "[Sym](https://github.com/b3log/symphony) 是一个用 [Java] 实现的现代化社区（论坛/社交网络/博客）平台，“下一代的社区系统，为未来而构建”。");
+            tag.put(Tag.TAG_URI, "jrzz");
+            tag.put(Tag.TAG_ICON_PATH, "jrzz.png");
+            tag.put(Tag.TAG_DESCRIPTION, "京润珍珠作为一款国产知名品牌，他们推出的护肤产品基本上都以天然珍珠粉为主要成分，含有氨基酸、微量元素、小分子活性肽等珍珠营养成分，具有卓越的美白功效。");
             tagMgmtService.updateTag(tagId, tag);
 
-            tagTitle = "Solo";
+            /*tagTitle = "Solo";
             tagId = tagMgmtService.addTag(adminId, tagTitle);
             tag = tagRepository.get(tagId);
             tag.put(Tag.TAG_URI, "Solo");
@@ -689,15 +694,15 @@ public class InitMgmtService {
             tag.put(Tag.TAG_URI, "Wide");
             tag.put(Tag.TAG_ICON_PATH, "wide.png");
             tag.put(Tag.TAG_DESCRIPTION, "[Wide](https://github.com/b3log/wide) 是一个基于 [Web] 的 <a href='/tags/golang'>Go</a> 语言团队 IDE。通过浏览器就可以进行 Go 开发，并有代码自动完成、查看表达式、编译反馈、Lint、实时结果输出等功能。");
-            tagMgmtService.updateTag(tagId, tag);
+            tagMgmtService.updateTag(tagId, tag);*/
 
             LOGGER.log(Level.INFO, "Initialized tag data");
 
             // Hello World!
             final JSONObject article = new JSONObject();
-            article.put(Article.ARTICLE_TITLE, "Welcome to Sym community :gift_heart:");
-            article.put(Article.ARTICLE_TAGS, "Sym,Announcement");
-            article.put(Article.ARTICLE_CONTENT, "Hello, everyone!");
+            article.put(Article.ARTICLE_TITLE, "meia欢迎大家加入!");
+            article.put(Article.ARTICLE_TAGS, "京润珍珠,系统公告");
+            article.put(Article.ARTICLE_CONTENT, "大家好! :gift_heart:");
             article.put(Article.ARTICLE_EDITOR_TYPE, 0);
             article.put(Article.ARTICLE_AUTHOR_ID, admin.optString(Keys.OBJECT_ID));
 

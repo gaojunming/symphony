@@ -48,8 +48,8 @@
                         </div>
                         </#if>
                         <div>
-                            ${symphonyLabel} ${user.userNo?c} ${numVIPLabel},
-                            <#if 0 == user.userAppRole>${hackerLabel}<#else>${painterLabel}</#if>
+                            ${symphonyLabel} ${user.userNo?c} ${numVIPLabel}<#--,
+                            <#if 0 == user.userAppRole>${hackerLabel}<#else>${painterLabel}</#if>-->
                         </div>
                     </div>
                     <div class="cmts tooltipped tooltipped-w" aria-label="${user.userPoint?c}">

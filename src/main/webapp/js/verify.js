@@ -274,12 +274,12 @@ var Verify = {
         var step2Sort = 'random';
 
         var step = function () {
-            if (currentStep !== 6) {
+            if (currentStep !== 5) {
                 $('.intro dt').removeClass('current');
                 $('.guide-tab > div').hide();
             }
 
-            if (currentStep < 6 && currentStep > 0) {
+            if (currentStep < 5 && currentStep > 0) {
                 $.ajax({
                     url: Label.servePath + "/guide/next",
                     type: "POST",
@@ -328,9 +328,14 @@ var Verify = {
                     $('.guide-tab > div:eq(2)').show();
                     $('.intro dt:eq(2)').addClass('current');
                     $('.step-btn .red').show();
+
+                    $('.step-btn .green').text(Label.nextStepLabel);
+
+                    $('.intro > div').hide();
+                    $('.intro > dl').show();
                     break;
                 case 4:
-                    $('.guide-tab > div:eq(3)').show();
+                    /*$('.guide-tab > div:eq(3)').show();
                     $('.intro dt:eq(3)').addClass('current');
 
                      $('.step-btn .red').show();
@@ -339,7 +344,7 @@ var Verify = {
                      $('.intro > div').hide();
                      $('.intro > dl').show();
                     break;
-                case 5:
+                case 5:*/
                     $('.guide-tab > div:eq(4)').show();
 
                     $('.step-btn .red').show();
@@ -348,7 +353,7 @@ var Verify = {
                     $('.intro > div').show();
                     $('.intro > dl').hide();
                     break;
-                case 6:
+                case 5:
                     // finished
                     window.location.href = Label.servePath;
                     break;
@@ -359,7 +364,8 @@ var Verify = {
         };
 
         $('.step-btn .green').click(function () {
-            if (currentStep > 5) {
+            console.log(currentStep);
+            if (currentStep > 4) {
                 return false;
             }
             currentStep++;

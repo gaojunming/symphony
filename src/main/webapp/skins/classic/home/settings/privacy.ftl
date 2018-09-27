@@ -92,14 +92,14 @@
                 </label>
             </div>
         </div>
-        <div class="fn-clear settings-secret">
+        <#--<div class="fn-clear settings-secret">
             <div>
                 <label>
                     <input id="userBreezemoonStatus" <#if 0 == currentUser.userBreezemoonStatus> checked="checked"</#if> type="checkbox" />
                     ${userBreezemoonStatusLabel}
                 </label>
             </div>
-        </div>
+        </div>-->
         <div class="fn-clear settings-secret">
             <div>
                 <label>

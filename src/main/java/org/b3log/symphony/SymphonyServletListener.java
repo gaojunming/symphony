@@ -273,7 +273,7 @@ public final class SymphonyServletListener extends AbstractServletListener {
         Stopwatchs.start("Resolve skin");
 
         request.setAttribute(Keys.TEMAPLTE_DIR_NAME, (Boolean) request.getAttribute(Common.IS_MOBILE)
-                ? "mobile" : "classic");
+                ? Symphonys.get("mobileSkinDirName") : Symphonys.get("skinDirName"));
 
         try {
             final UserQueryService userQueryService = beanManager.getReference(UserQueryService.class);

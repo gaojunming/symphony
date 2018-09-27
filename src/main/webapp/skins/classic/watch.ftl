@@ -43,10 +43,10 @@
                         <a pjax-title="${followingUsersLabel} - ${symphonyLabel}"
                            class="<#if "/users" == current>ft-gray</#if>"
                            href="${servePath}/watch/users">${followingUsersLabel}</a>
-                        /
+                        <#--/
                         <a pjax-title="${followingUsersLabel} - ${symphonyLabel}"
                            class="<#if "/breezemoons" == current>ft-gray</#if>"
-                           href="${servePath}/watch/breezemoons">${breezemoonLabel}</a>
+                           href="${servePath}/watch/breezemoons">${breezemoonLabel}</a>-->
                     </span>
                 </div>
             <@list listData=watchingArticles/>

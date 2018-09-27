@@ -229,9 +229,9 @@ public class DataModelService {
         try {
             for (int i = 0; i < 13; i++) {
                 final JSONObject tag = new JSONObject();
-                tag.put(Tag.TAG_URI, "Sym");
-                tag.put(Tag.TAG_ICON_PATH, "sym.png");
-                tag.put(Tag.TAG_TITLE, "Sym");
+                tag.put(Tag.TAG_URI, "jrzz");
+                tag.put(Tag.TAG_ICON_PATH, "jrzz.png");
+                tag.put(Tag.TAG_TITLE, "京润珍珠");
 
                 dataModel.put(Tag.TAG + i, tag);
             }

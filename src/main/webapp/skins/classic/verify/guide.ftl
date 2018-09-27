@@ -39,8 +39,8 @@
                         <dd class="ft-gray ft-smaller">${guideFollowTagTipLabel}</dd>
                         <dt><span class="index">3</span>${guideFollowUserLabel}</dt>
                         <dd class="ft-gray ft-smaller">${guideFollowUserTipLabel}</dd>
-                        <dt><span class="index">4</span>${guideStarProjectLabel}</dt>
-                        <dd class="ft-gray ft-smaller">${guideStarProjectTipLabel}</dd>
+                        <#--<dt><span class="index">4</span>${guideStarProjectLabel}</dt>
+                        <dd class="ft-gray ft-smaller">${guideStarProjectTipLabel}</dd>-->
                     </dl>
                     <div class="fn-none">
                         ${introLabel}
@@ -122,8 +122,8 @@
                             </ul>
                         </div>
                         <div class="fn-none ft-center">
-                            <a href="https://github.com/b3log/symphony" target="_blank"><img src="${staticServePath}/images/sym-logo300.png" width="180px"></a> <br/> <br/><br/><br/>
-                            <iframe src="https://ghbtns.com/github-btn.html?user=b3log&repo=symphony&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+                            <#--<a href="https://github.com/b3log/symphony" target="_blank"><img src="${staticServePath}/images/sym-logo300.png" width="180px"></a> <br/> <br/><br/><br/>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=b3log&repo=symphony&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>-->
                         </div>
                         <div class="fn-none list">
                             <div class="ft-center"> <svg><use xlink:href="#logo"></use></svg> </div> <br/>
@@ -144,9 +144,9 @@
                                     <a href="https://hacpai.com/guide/markdown">Markdown ${tutorialLabel}</a>
                                     <span class="ft-gray">${markdownTutorialTipLabel}</span>
                                 </li>
-                                <li>
+                                <#--<li>
                                 ${pipeIntroLabel}
-                                </li>
+                                </li>-->
                             </ul>
                             <br/>
                         </div>

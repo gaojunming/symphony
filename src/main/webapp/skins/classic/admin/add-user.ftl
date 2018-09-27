@@ -40,7 +40,7 @@
                         <input name="userPassword" type="text"/>
                     </label>
                 </div>
-                <div class="fn__flex">
+                <#--<div class="fn__flex">
                     <label>
                         <div>${roleLabel}</div>
                         <select id="domainNav" name="domainNav">
@@ -50,7 +50,7 @@
                     </label>
                     <label class="mid"></label>
                     <label></label>
-                </div>
+                </div>-->
                 <br/>
                 <button type="submit" class="green fn-right">${submitLabel}</button>
             </form>

@@ -71,14 +71,15 @@
         <div class="user-info">
             <span class="ft-gray">${symphonyLabel}</span>
             ${user.userNo?c}
-            <span class="ft-gray">${numVIPLabel}</span>, <#if 0 == user.userAppRole>${hackerLabel}<#else>${painterLabel}</#if>
+            <span class="ft-gray">${numVIPLabel}</span>, <#--<#if 0 == user.userAppRole>${hackerLabel}<#else>${painterLabel}</#if>-->
         <span class="ft-gray">${pointLabel}</span>
         <a href="${servePath}/member/${user.userName}/points" class="tooltipped tooltipped-n" aria-label="${user.userPoint?c}">
-                <#if 0 == user.userAppRole>
+                <#--<#if 0 == user.userAppRole>
                 0x${user.userPointHex}
                 <#else>
                 <div class="painter-point" style="background-color: #${user.userPointCC}"></div>
-                </#if>
+                </#if>-->
+                ${user.userPoint?c}
             </a>
         </div>
         <#if "" != user.userTags>

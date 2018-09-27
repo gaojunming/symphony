@@ -61,7 +61,7 @@
                                 <span class="ft-gray">${domainLabel}</span> ${statistic.statisticDomainCount?c} &nbsp;
                             </li>
                             <li>
-                                <span class="ft-gray">${tagLabel}</span> ${statistic.statisticTagCount?c} 
+                                <span class="ft-gray">${tagLabel}</span> ${statistic.statisticTagCount?c}
                             </li>
                         </ul>
                     </div>
@@ -89,7 +89,7 @@
                     ],
                     function (ec) {
                         var fontFamily = '"Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif';
-                        
+
                         var chart30 = ec.init(document.getElementById('chart30'), 'infographic');
                         option30 = {
                             title: {
@@ -158,7 +158,7 @@
                         };
 
                         chart30.setOption(option30);
-                        
+
                         var chartHistory = ec.init(document.getElementById('chartHistory'), 'infographic');
                         optionHistory = {
                             title: {

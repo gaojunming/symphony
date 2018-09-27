@@ -42,9 +42,9 @@
                 <a href="${servePath}/guide/markdown">Markdown ${tutorialLabel}</a>
                 <span class="ft-gray">${markdownTutorialTipLabel}</span>
             </li>
-            <li>
+            <#--<li>
             ${pipeIntroLabel}
-            </li>
+            </li>-->
         </ul>
     </div>
 </div>

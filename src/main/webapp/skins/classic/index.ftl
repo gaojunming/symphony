@@ -174,7 +174,7 @@
                                 </a>
                             </div>
                             <div class="metro-item">
-                            <#if ADLabel != '' >
+                            <#--<#if ADLabel != '' >
                                 <a class="preview" href="https://hacpai.com/article/1460083956075">
                                     <img src="${staticServePath}/emoji/graphics/heart.png" alt="${sponsorLabel}">
                                     <b>${adDeliveryLabel}</b>
@@ -184,10 +184,10 @@
                                     <img src="${staticServePath}/images/tags/shell.png" alt="${sponsorLabel}">
                                     <b>Hacker's Manual</b>
                                 </a>
-                            </#if>
+                            </#if>-->
                             </div>
                             <div class="metro-item">
-                            <#if ADLabel != '' >
+                            <#--<#if ADLabel != '' >
                                 <div class="ad">
                                 ${ADLabel}
                                 </div>
@@ -196,7 +196,7 @@
                                     <img src="${staticServePath}/emoji/graphics/heart.png" alt="${sponsorLabel}">
                                     <b>${adDeliveryLabel}</b>
                                 </a>
-                            </#if>
+                            </#if>-->
                             </div>
                         </div>
 

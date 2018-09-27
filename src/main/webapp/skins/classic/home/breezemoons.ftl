@@ -36,9 +36,9 @@
     <a pjax-title="${followersLabel} - ${user.userName} - ${symphonyLabel}"
        href="${servePath}/member/${user.userName}/followers"<#if type == "followers">
        class="current"</#if>>${followersLabel}</a>
-    <a pjax-title="${breezemoonLabel} - ${user.userName} - ${symphonyLabel}"
+    <#--<a pjax-title="${breezemoonLabel} - ${user.userName} - ${symphonyLabel}"
        href="${servePath}/member/${user.userName}/breezemoons"<#if type == "breezemoons">
-       class="current"</#if>>${breezemoonLabel} &nbsp;<span class="count">${paginationRecordCount}</span></a>
+       class="current"</#if>>${breezemoonLabel} &nbsp;<span class="count">${paginationRecordCount}</span></a>-->
 </div>
     <#if permissions["commonAddBreezemoon"].permissionGrant && isLoggedIn && currentUser.userName == user.userName>
     <div class="list">
