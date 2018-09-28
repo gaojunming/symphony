@@ -651,7 +651,7 @@ public class InitMgmtService {
             tagTitle = "使用指南";
             tagId = tagMgmtService.addTag(adminId, tagTitle);
             tag = tagRepository.get(tagId);
-            tag.put(Tag.TAG_URI, "user-guide");
+            tag.put(Tag.TAG_URI, "user_guide");
             tagMgmtService.updateTag(tagId, tag);
             /*tagTitle = "B3log";
             tagId = tagMgmtService.addTag(adminId, tagTitle);
