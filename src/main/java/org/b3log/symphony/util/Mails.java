@@ -807,7 +807,7 @@ final class MailSender implements java.io.Serializable {
 
     private void sendHTML(final String fromName, final String subject, final String[] toMail, final String html) {
         try {
-            getInstance().sendMessage(toMail, subject, html, saved_path, MailType.IMAGE);
+            getInstance().sendMessage(toMail, subject, html, saved_path, MailType.SIMPLE);
             LOGGER.debug(html);
 
         } catch (Exception e) {

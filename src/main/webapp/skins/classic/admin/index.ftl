@@ -20,7 +20,7 @@
 <#include "macro-admin.ftl">
 <@admin "index">
 <div class="content admin-index">
-    <div class="module">
+    <#--<div class="module">
         <div class="module-header">
             <h2><span class="ft-red">使用须知</span>
                 <div class="fn-right">
@@ -35,7 +35,7 @@
                 <li>云南链滴科技有限公司保留追究侵权人法律责任的权利</li>
             </ul>
         </div>
-    </div>
+    </div>-->
     <div class="module fn-content content-reset">
         <ul>
             <li>${onlineVisitorCountLabel} ${onlineVisitorCnt?c}</li>

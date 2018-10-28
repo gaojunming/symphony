@@ -53,8 +53,8 @@
         <meta name="twitter:title" content="${article.articleTitle} - ${symphonyLabel}" />
         <meta name="twitter:image" content="${article.articleAuthorThumbnailURL210}" />
         <meta name="twitter:url" content="${servePath}${article.articlePermalink}" />
-        <meta name="twitter:site" content="@B3logOS" />
-        <meta name="twitter:creator" content="@B3logOS" />
+        <meta name="twitter:site" content="@Meia" />
+        <meta name="twitter:creator" content="@Meia" />
     </head>
     <body itemscope itemtype="http://schema.org/Product" class="article">
         <img itemprop="image" class="fn-none"  src="${article.articleAuthorThumbnailURL210}" />

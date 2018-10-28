@@ -27,7 +27,7 @@
                     <use xlink:href="#github"></use>
                 </svg>
             </a> &nbsp;-->
-            <a href="http://weibo.com/u/2778228501" target="_blank" class="tooltipped tooltipped-n"
+            <a href="http://weibo.com/u/5210901559" target="_blank" class="tooltipped tooltipped-n"
                aria-label="${followWeiboLabel}">
                 <svg class="icon-weibo">
                     <use xlink:href="#weibo"></use>
@@ -43,7 +43,7 @@
         <div class="fn-flex-1">
             <div class="footer-nav fn-clear">
                 <a rel="help" href="${servePath}/about">${aboutLabel}</a>
-                <a href="https://hacpai.com/article/1457158841475">API</a>
+                <#--<a href="https://hacpai.com/article/1457158841475">API</a>-->
                 <a href="${servePath}/tag/announcement">${symAnnouncementLabel}</a>
                 <a href="${servePath}/domains">${domainLabel}</a>
                 <a href="${servePath}/tags">${tagLabel}</a>
