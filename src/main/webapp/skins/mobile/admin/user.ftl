@@ -223,11 +223,11 @@
                     </#list>
                 </select>
 
-                <label>${appRoleLabel}</label>
+                <#--<label>${appRoleLabel}</label>
                 <select id="userAppRole" name="userAppRole">
                     <option value="0"<#if 0 == user.userAppRole> selected</#if>>${hackerLabel}</option>
                     <option value="1"<#if 1 == user.userAppRole> selected</#if>>${painterLabel}</option>
-                </select>
+                </select>-->
 
                 <label>${userStatusLabel}</label>
                 <select id="userStatus" name="userStatus">

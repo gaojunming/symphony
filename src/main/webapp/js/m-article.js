@@ -324,7 +324,7 @@ var Comment = {
           },
           {name: 'unordered-list'},
           {name: 'ordered-list'},
-          {name: 'question', action: 'https://hacpai.com/guide/markdown'}
+          {name: 'question', action: 'https://meia.fun/guide/markdown'}
         ],
         extraKeys: {
           "Alt-/": "autocompleteUserName",

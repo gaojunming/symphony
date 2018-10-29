@@ -129,7 +129,7 @@
                             <div class="ft-center"> <svg><use xlink:href="#logo"></use></svg> </div> <br/>
                             <ul>
                                 <li>
-                                    <a href="${servePath}/about">${getStartLabel}</a>
+                                    <a href="#">${getStartLabel}</a>
                                     <span class="ft-gray">${getStartTipLabel}</span>
                                 </li>
                                 <li>
@@ -137,11 +137,11 @@
                                     <span class="ft-gray">${basicTipLabel}</span>
                                 </li>
                                 <li>
-                                    <a href="https://hacpai.com/article/1474030007391">${hotKeyLabel}</a>
+                                    <a href="#">${hotKeyLabel}</a>
                                     <span class="ft-gray">${hotKeyTipLabel}</span>
                                 </li>
                                 <li>
-                                    <a href="https://hacpai.com/guide/markdown">Markdown ${tutorialLabel}</a>
+                                    <a href="${servePath}/guide/markdown">Markdown ${tutorialLabel}</a>
                                     <span class="ft-gray">${markdownTutorialTipLabel}</span>
                                 </li>
                                 <#--<li>

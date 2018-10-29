@@ -27,7 +27,7 @@
     <div class="module-panel">
         <ul class="module-list">
             <li>
-                <a href="${servePath}/about">${getStartLabel}</a>
+                <a href="#">${getStartLabel}</a>
                 <span class="ft-gray">${getStartTipLabel}</span>
             </li>
             <li>
@@ -35,7 +35,7 @@
                 <span class="ft-gray">${basicTipLabel}</span>
             </li>
             <li>
-                <a href="https://hacpai.com/article/1474030007391">${hotKeyLabel}</a>
+                <a href="#">${hotKeyLabel}</a>
                 <span class="ft-gray">${hotKeyTipLabel}</span>
             </li>
             <li>

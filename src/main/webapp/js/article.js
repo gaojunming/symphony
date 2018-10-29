@@ -475,7 +475,7 @@ var Comment = {
         {name: 'ordered-list'},
         {name: 'view'},
         {name: 'fullscreen'},
-        {name: 'question', action: 'https://hacpai.com/guide/markdown'},
+        {name: 'question', action: 'https://meia.fun/guide/markdown'},
       ],
       extraKeys: {
         'Alt-/': 'autocompleteUserName',

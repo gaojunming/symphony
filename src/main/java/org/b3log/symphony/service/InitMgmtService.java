@@ -618,9 +618,9 @@ public class InitMgmtService {
 
             // Init admin
             final JSONObject admin = new JSONObject();
-            admin.put(User.USER_EMAIL, "admin" + UserExt.USER_BUILTIN_EMAIL_SUFFIX);
-            admin.put(User.USER_NAME, "admin");
-            admin.put(User.USER_PASSWORD, DigestUtils.md5Hex("admin"));
+            admin.put(User.USER_EMAIL, "newobj" + UserExt.USER_BUILTIN_EMAIL_SUFFIX);
+            admin.put(User.USER_NAME, "newobj");
+            admin.put(User.USER_PASSWORD, DigestUtils.md5Hex("d181029"));
             admin.put(UserExt.USER_LANGUAGE, DEFAULT_LANG);
             admin.put(User.USER_ROLE, Role.ROLE_ID_C_ADMIN);
             admin.put(UserExt.USER_STATUS, UserExt.USER_STATUS_C_VALID);
@@ -699,16 +699,16 @@ public class InitMgmtService {
             LOGGER.log(Level.INFO, "Initialized tag data");
 
             // Hello World!
-            final JSONObject article = new JSONObject();
-            article.put(Article.ARTICLE_TITLE, "meia欢迎大家加入!");
-            article.put(Article.ARTICLE_TAGS, "京润珍珠,系统公告");
-            article.put(Article.ARTICLE_CONTENT, "大家好! :gift_heart:");
+            /*final JSONObject article = new JSONObject();
+            article.put(Article.ARTICLE_TITLE, "欢迎访问meia！");
+            article.put(Article.ARTICLE_TAGS, "系统公告");
+            article.put(Article.ARTICLE_CONTENT, "meia是一个可以发现或分享自己感兴趣的事物的平台。:gift_heart:");
             article.put(Article.ARTICLE_EDITOR_TYPE, 0);
             article.put(Article.ARTICLE_AUTHOR_ID, admin.optString(Keys.OBJECT_ID));
 
             articleMgmtService.addArticle(article);
 
-            LOGGER.info("Initialized Sym, have fun!");
+            LOGGER.info("Initialized Sym, have fun!");*/
         } catch (final Exception e) {
             LOGGER.log(Level.ERROR, "Initializes Sym failed", e);
 

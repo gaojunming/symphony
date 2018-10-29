@@ -35,7 +35,7 @@
                         <dt class="current"><b>1. </b>${guideUploadAvatarLabel}</dt>
                         <dt><b>2. </b>${guideFollowTagLabel}</dt>
                         <dt><b>3. </b>${guideFollowUserLabel}</dt>
-                        <dt><b>4. </b>${guideStarProjectLabel}</dt>
+                        <#--<dt><b>4. </b>${guideStarProjectLabel}</dt>-->
                     </dl>
                     <div class="fn-none">
                         ${introLabel}
@@ -108,14 +108,14 @@
                             </ul>
                         </div>
                         <div class="fn-none ft-center">
-                            <br/>
+                            <#--<br/>
                             <a href="https://github.com/b3log/symphony" target="_blank"><img src="${staticServePath}/images/sym-logo300.png" width="180px"></a> <br/> <br/><br/>
-                            <iframe src="https://ghbtns.com/github-btn.html?user=b3log&repo=symphony&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=b3log&repo=symphony&type=star&count=true&size=large" frameborder="0" scrolling="0" width="130px" height="30px"></iframe>-->
                         </div>
                         <div class="fn-none list">
                             <ul>
                                 <li>
-                                    <a href="${servePath}/about">${getStartLabel}</a>
+                                    <a href="#">${getStartLabel}</a>
                                     <span class="ft-gray">${getStartTipLabel}</span>
                                 </li>
                                 <li>
@@ -123,16 +123,16 @@
                                     <span class="ft-gray">${basicTipLabel}</span>
                                 </li>
                                 <li>
-                                    <a href="https://hacpai.com/article/1474030007391">${hotKeyLabel}</a>
+                                    <a href="#">${hotKeyLabel}</a>
                                     <span class="ft-gray">${hotKeyTipLabel}</span>
                                 </li>
                                 <li>
-                                    <a href="https://hacpai.com/guide/markdown">Markdown ${tutorialLabel}</a>
+                                    <a href="${servePath}/guide/markdown">Markdown ${tutorialLabel}</a>
                                     <span class="ft-gray">${markdownTutorialTipLabel}</span>
                                 </li>
-                                <li>
+                                <#--<li>
                                 ${pipeIntroLabel}
-                                </li>
+                                </li>-->
                             </ul>
                             <br/>
                         </div>

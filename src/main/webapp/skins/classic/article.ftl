@@ -291,6 +291,14 @@
                 <#if pjax><!---- pjax {#comments} end ----></#if>
             </div>
         </div>
+        <#if discussionViewable>
+            <div class="comment__reply" style="margin: 0 auto;width: 768px;margin-top: 20px;">
+                <div class="fn__flex">
+                    <span class="avatar" style="background-image:url('${currentUser.userAvatarURL20}');"></span>
+                    <span class="reply__text fn-flex-1" style="color: #4285f4;cursor: pointer;border: 1px solid #eee;line-height: 37px;border-radius: 3px;padding: 0 10px;" data-hasPermission="${permissions['commonAddComment'].permissionGrant?c}" onclick="Comment._toggleReply()">请输入${cmtLabel}内容...</span>
+                </div>
+            </div>
+        </#if>
         <div class="wrapper article-footer">
             <#if sideRelevantArticles?size != 0>
                 <div class="module">
@@ -487,10 +495,10 @@
             </div>
         </#if>
 
-        <#if discussionViewable>
+        <#--<#if discussionViewable>
         <span class="radio-btn" onclick="Comment._toggleReply()"
               data-hasPermission="${permissions['commonAddComment'].permissionGrant?c}">${cmtLabel}</span>
-        </#if>
+        </#if>-->
 
         <#if isLoggedIn && discussionViewable && article.articleCommentable>
         <div class="editor-panel">

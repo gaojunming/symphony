@@ -72,9 +72,9 @@
 <body class="body--ready">
 <canvas class="canvas"></canvas>
 <p class="text">
-    正在跳转至 <a href="${forwardURL}">${forwardURL}</a><br/>
+    正在跳转至 <a href="${forwardURL}">${forwardURL}</a><#--<br/>
     <a href="https://github.com/b3log/symphony">GitHub</a> &nbsp;
-    <a href="https://b3log.org/">B3log</a>
+    <a href="https://b3log.org/">B3log</a>-->
 </p>
 <script src="${staticServePath}/js/lib/jquery/jquery-3.1.0.min.js"></script>
 <script>

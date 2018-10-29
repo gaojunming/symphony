@@ -23,9 +23,9 @@
 <div class="module">
     <div class="module-header">
         <h2>${pointTransferTipLabel}</h2>
-        <span class="fn-right">
+        <#--<span class="fn-right">
             <a class="ft-green" href="${servePath}/charge/point">${rechargePointLabel}</a>
-        </span>
+        </span>-->
     </div>
     <div class="module-panel form fn-clear">
         <input id="pointTransferUserName" type="text" placeholder="${userNameLabel}"/>

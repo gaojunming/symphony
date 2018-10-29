@@ -26,75 +26,75 @@
 <cronentries>
 
     <cron>
-        <url>/cron/users/load-names?key=dev_key</url>
+        <url>/cron/users/load-names?key=JunMing</url>
         <description>Loads usernames</description>
         <schedule>every 30 minutes</schedule>
     </cron>
 
     <cron>
-        <url>/cron/article/stick-expire?key=dev_key</url>
+        <url>/cron/article/stick-expire?key=JunMing</url>
         <description>Expires sticked article</description>
         <schedule>every 1 minutes</schedule>
     </cron>
 
     <cron>
-        <url>/cron/refresh-cache?key=dev_key</url>
+        <url>/cron/refresh-cache?key=JunMing</url>
         <description>Refreshes cache</description>
         <schedule>every 30 minutes</schedule>
     </cron>
 
     <cron>
-        <url>/cron/stat?key=dev_key</url>
+        <url>/cron/stat?key=JunMing</url>
         <description>Loads statistic data</description>
         <schedule>every 30 minutes</schedule>
     </cron>
 
     <!--
     <cron>
-        <url>/cron/xiaov?key=dev_key</url>
+        <url>/cron/xiaov?key=JunMing</url>
         <description>XiaoV replies Stm.</description>
         <schedule>every 5 seconds</schedule>
     </cron>
     -->
 
     <cron>
-        <url>/cron/invitecode-expire?key=dev_key</url>
+        <url>/cron/invitecode-expire?key=JunMing</url>
         <description>Expires invitecode</description>
         <schedule>every 6 minutes</schedule>
     </cron>
 
     <cron>
-        <url>/cron/mail/weekly?key=dev_key</url>
+        <url>/cron/mail/weekly?key=JunMing</url>
         <description>Sends weekly newsletter</description>
         <schedule>every 5 minutes</schedule>
     </cron>
 
     <cron>
-        <url>/cron/status?key=dev_key</url>
+        <url>/cron/status?key=JunMing</url>
         <description>Checks running status</description>
         <schedule>every 2 hours</schedule>
     </cron>
 
     <cron>
-        <url>/cron/verifycode/email?key=dev_key</url>
+        <url>/cron/verifycode/email?key=JunMing</url>
         <description>Sends email verifycodes</description>
         <schedule>every 5 seconds</schedule>
     </cron>
 
     <cron>
-        <url>/cron/verifycode/remove-expired?key=dev_key</url>
+        <url>/cron/verifycode/remove-expired?key=JunMing</url>
         <description>Removes expired verifycodes</description>
         <schedule>every 1 hours</schedule>
     </cron>
 
     <cron>
-        <url>/cron/users/reset-unverified?key=dev_key</url>
+        <url>/cron/users/reset-unverified?key=JunMing</url>
         <description>Resets unverified users</description>
         <schedule>every 24 hours</schedule>
     </cron>
 
     <cron>
-        <url>/cron/ipfs/articles/publish?key=dev_key</url>
+        <url>/cron/ipfs/articles/publish?key=JunMing</url>
         <description>Publishes article markdown files to IPFS</description>
         <schedule>every 60 minutes</schedule>
         <timeout>600000</timeout>

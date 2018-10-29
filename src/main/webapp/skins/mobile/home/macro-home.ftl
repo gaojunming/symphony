@@ -133,9 +133,9 @@
             <li<#if type == "followers"> class="fn-none"</#if>>
                 <a href="${servePath}/member/${user.userName}/followers">${followersLabel}</a>
             </li>
-            <li<#if type == "breezemoons"> class="fn-none"</#if>>
+            <#--<li<#if type == "breezemoons"> class="fn-none"</#if>>
                 <a href="${servePath}/member/${user.userName}/breezemoons">${breezemoonLabel}</a>
-            </li>
+            </li>-->
             <li<#if type == "points"> class="fn-none"</#if>>
                 <a href="${servePath}/member/${user.userName}/points">${pointLabel}</a>
             </li>
