@@ -45,7 +45,7 @@ public final class Sessions {
     /**
      * Cookie name.
      */
-    public static final String COOKIE_NAME = "b3log-latke";
+    public static final String COOKIE_NAME = "meia-cookie";
 
     /**
      * Logger.
