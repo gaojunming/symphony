@@ -294,7 +294,9 @@
         <#if discussionViewable>
             <div class="comment__reply" style="margin: 0 auto;width: 768px;margin-top: 20px;">
                 <div class="fn__flex">
+                    <#if isLoggedIn>
                     <span class="avatar" style="background-image:url('${currentUser.userAvatarURL20}');"></span>
+                    </#if>
                     <span class="reply__text fn-flex-1" style="color: #4285f4;cursor: pointer;border: 1px solid #eee;line-height: 37px;border-radius: 3px;padding: 0 10px;" data-hasPermission="${permissions['commonAddComment'].permissionGrant?c}" onclick="Comment._toggleReply()">请输入${cmtLabel}内容...</span>
                 </div>
             </div>
