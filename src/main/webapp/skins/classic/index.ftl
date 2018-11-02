@@ -22,7 +22,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <@head title="${symphonyLabel}">
+        <@head title="${symphonyLabel} - 一个自由开放的社区，在这里可以发现或分享美好的事物">
         <meta name="description" content="${symDescriptionLabel}"/>
         </@head>
         <link rel="stylesheet" href="${staticServePath}/css/index.css?${staticResourceVersion}" />
